@@ -1,4 +1,3 @@
-# php Dockerfile
 ARG ALPINE_VERSION=3.15
 ARG PHP_VERSION=8.1.1
 
