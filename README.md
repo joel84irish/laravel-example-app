@@ -1,3 +1,7 @@
+# Install New Laravel App
+
+composer create-project laravel/laravel example-app
+
 # SSL setup
 
 In the ssl folder under `docker/nginx`, create a self-generated certificate as follows;
