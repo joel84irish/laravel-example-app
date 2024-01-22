@@ -19,3 +19,13 @@ This should generate two files, `nginx.crt` and `nginx.key`
 `docker-compose up -d` This will build the images and run the containers in the background.
 
 The application should be accessible at https://127.0.0.1
+
+# To make the images as small as possible
+
+· I used multi-stage builds to reduce the final image size, by using multiple docker files.
+
+· I used Alpine Linux as the base image.
+
+· Minimize layers by combining commands in the Dockerfile.
+
+· I remove unnecessary files and dependencies.
